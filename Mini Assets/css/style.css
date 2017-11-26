@@ -1,0 +1,423 @@
+@charset "utf-8";
+
+#container {
+	height:1250px;
+	width:800px;
+}
+
+#flip {
+	width: 500px;
+	height:200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.papas {
+	float: left;
+	height:225px;
+	width:150px;
+	transform-style: preserve-3d;
+	transition:all 1.5s ease;
+	float: left;
+	perspective: 1000;
+	}
+
+.papas:hover {
+	transform: rotateY(180deg);
+}
+
+.front {
+	position: absolute;
+	height:225px;
+	width:150px;
+	}
+
+.back {
+	position: absolute;
+	height:225px;
+	width:150px;
+	transform: rotateY(180deg);
+}
+/*parallax animation*/
+
+.parallaxarea {
+	height: 200px;
+	width: 100%;
+	background-image: url(../img/4klondon.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*SVG Animation*/
+
+#svgname {
+	padding-top: 70px;
+	padding-left: 70px;
+}
+
+#svgsize {
+	border:2px solid #D6D4BB;
+	padding: 20px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+	fill: grey;
+}
+
+.svg_hover { 
+	transition: 3s;
+	background-color: #D6D4BB; 
+}
+
+#svgsize svg:hover{
+    fill: white;
+    transform: rotateX(360deg) scale(1.4);
+    transition: 3s;
+}
+
+.parallaxcolor {
+	color: #2A3F5E;
+}
+
+#Layer_1,
+#Layer_2,
+#Layer_3,
+#Layer_4,
+#Layer_5,
+#Layer_6,
+#Layer_7,
+#Layer_8 {
+	fill: #4ba4e7;
+	}
+
+#Layer_9,
+#Layer_10,
+#Layer_11,
+#Layer_12,
+#Layer_13,
+#Layer_14,
+#Layer_15,
+#Layer_16{
+	fill: #FF6633;
+}
+
+#Layer_17,
+#Layer_18,
+#Layer_19 {
+	fill: #4ba4e7;
+}
+
+#Layer_20,
+#Layer_21,
+#Layer_22,
+#Layer_23,
+#Layer_24,
+#Layer_25,
+#Layer_26,
+#Layer_27,
+#Layer_28 {
+	fill: #FF6633;
+	}
+
+#Layer_1 path {
+	animation: logo1 1s ease;
+	}   
+   
+  @keyframes logo1 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_2 path {
+	animation: logo2 1.5s ease;
+	}   
+   
+  @keyframes logo2 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_3 path {
+	animation: logo3 2s ease;
+	}   
+   
+  @keyframes logo3 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_4 path {
+	animation: logo4 2.5s ease;
+	}   
+   
+  @keyframes logo4 {
+	 0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_5 path {
+	animation: logo5 3s ease;
+	}   
+   
+  @keyframes logo5 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_6 path {
+	animation: logo6 3.5s ease;
+	}   
+   
+  @keyframes logo6 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_7 path {
+	animation: logo7 4s ease;
+	}   
+   
+  @keyframes logo7 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_8 path {
+	animation: logo8 4.5s ease;
+	}   
+   
+  @keyframes logo8{
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_9 path {
+	animation: logo9 1s ease;
+	}   
+   
+  @keyframes logo9 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_10 path {
+	animation: logo10 1.5s ease;
+	}   
+   
+  @keyframes logo10 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_11 path {
+	animation: logo11 2s ease;
+	}   
+   
+  @keyframes logo11 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_12 path {
+	animation: logo12 2.5s ease;
+	}   
+   
+  @keyframes logo12 {
+	 0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_13 path {
+	animation: logo13 3s ease;
+	}   
+   
+  @keyframes logo13 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_14 path {
+	animation: logo14 3.5s ease;
+	}   
+   
+  @keyframes logo14 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_15 path {
+	animation: logo15 4s ease;
+	}   
+   
+  @keyframes logo15 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_16 path {
+	animation: logo16 4.5s ease;
+	}   
+   
+  @keyframes logo16{
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_17 path {
+	animation: logo17 3s ease;
+	}   
+   
+  @keyframes logo17 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_18 path {
+	animation: logo18 5s ease;
+	}   
+   
+  @keyframes logo18{
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_19 path {
+	animation: logo19 1s ease;
+	}   
+   
+  @keyframes logo19 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_20 path {
+	animation: logo20 1.5s ease;
+	}   
+   
+  @keyframes logo20 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_21 path {
+	animation: logo21 3s ease;
+	}   
+   
+  @keyframes logo21 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_22 path {
+	animation: logo22 2s ease;
+	}   
+   
+  @keyframes logo22 {
+	 0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_23 path {
+	animation: logo23 3s ease;
+	}   
+   
+  @keyframes logo23 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_24 path {
+	animation: logo24 3.5s ease;
+	}   
+   
+  @keyframes logo24 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_25 path {
+	animation: logo25 4s ease;
+	}   
+   
+  @keyframes logo25 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_26 path {
+	animation: logo26 4.5s ease;
+	}   
+   
+  @keyframes logo26{
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+#Layer_27 path {
+	animation: logo27 2s ease;
+	}   
+   
+  @keyframes logo27 {
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+	  
+#Layer_28 path {
+	animation: logo28 5s ease;
+	}   
+   
+  @keyframes logo28{
+	  0% {  transform: translate(0.0); }
+		
+	100% {transform: initial;}
+	  }
+
+/*SHIP CSS*/   
+
+path .firstwave {
+	animation: waveshake 2s ease;
+}
+
+@keyframes waveshake {
+	 0% {  transform: scaleZ(1); }
+		
+	50% {  transform: scaleZ(2); }
+
+	100% {  transform: scaleZ(1); }
+}
+
+
+
+
